@@ -1,4 +1,4 @@
-tss.header {
+  .header {
     position: fixed;
     top: 0;
     width: 100%;
@@ -47,5 +47,6 @@ tss.header {
   }
 
   body　{
-    background-image: url(./gazou/home.png);
-}
+    background-image: url(/gazou/home.png);
+    background-size: cover;
+  }
