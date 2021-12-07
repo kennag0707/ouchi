@@ -1,6 +1,6 @@
 body{
-    
-    background-image: url(../gazou/home.png);
+    background-image: url("gazou/home.png");
+    background-size: cover;
 }
 
   .header {
