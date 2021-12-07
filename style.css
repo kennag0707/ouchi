@@ -1,3 +1,8 @@
+body{
+    
+    background-image: url(../gazou/home.png);
+}
+
   .header {
     position: fixed;
     top: 0;
@@ -44,9 +49,4 @@
   li a:hover:not(.active) {
     color: #ffffff;
     background-color: #1b2538;
-  }
-
-  body　{
-    background-image: url(/gazou/home.png);
-    background-size: cover;
   }
