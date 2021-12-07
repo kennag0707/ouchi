@@ -5,12 +5,12 @@ tss.header {
     height: 50px;
     background-color: darkgrey;
   }
-   
+
   .main {
     padding-top: 50px;
     overflow: auto;
   }
-   
+
   .footer {
     position: fixed;
     bottom: 0;
@@ -45,3 +45,7 @@ tss.header {
     color: #ffffff;
     background-color: #1b2538;
   }
+
+  body　{
+    background-image: url(./gazou/home.png);
+}
