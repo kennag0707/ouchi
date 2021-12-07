@@ -1,0 +1,23 @@
+.ninzu{
+    display:  inline-block;
+    list-style: none;
+    margin: 30px;
+}
+
+.nomionly{
+    margin: auto;
+    text-align: center;
+}
+
+.btn{
+    text-align: center;
+}
+.btn--orange,
+a.btn--orange {
+    color: #fff;
+    background-color: #eb6100;
+}
+
+body{
+    text-align: center;
+}
