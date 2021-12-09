@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+}
+form {
+    text-align: center;
+}
+
+li {
+    text-align: center;
+    display: block;
+}
+
+.example{
+    text-align: center;
+    padding: 5px;
+}
