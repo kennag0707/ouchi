@@ -1,0 +1,21 @@
+# データベースouchiの作成
+set names utf8;
+drop database if exists ouchi;
+create database ouchi character set utf8 collate utf8_general_ci;
+
+# ユーザーouchiに、パスワードpassを設定し、データベースouchiに対するすべての権限を付与
+grant all privileges on ouchi.* to ouchi@localhost identified by 'pass';
+
+# データベースshopを使用する
+use ouchi;
+#usersテーブル作成
+drop table if exists users;
+create table users(
+    userId	      varchar(50) primary key,
+    userName	    varchar(50) not null,
+    password      varchar(20)
+);
+
+# テーブルusersへデータを入力
+insert into users(userId, userName,password)
+ values('kobe@denshi.net', '神戸　電子','kobedenshi');
