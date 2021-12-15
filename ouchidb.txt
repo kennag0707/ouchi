@@ -6,7 +6,7 @@ create database ouchi character set utf8 collate utf8_general_ci;
 # ユーザーouchiに、パスワードpassを設定し、データベースouchiに対するすべての権限を付与
 grant all privileges on ouchi.* to ouchi@localhost identified by 'pass';
 
-# データベースshopを使用する
+# データベースouchiを使用する
 use ouchi;
 #usersテーブル作成
 drop table if exists users;
