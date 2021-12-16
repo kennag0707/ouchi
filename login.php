@@ -1,5 +1,6 @@
-
-
+<?php
+require_once __DIR__ .'/dbconect.php';
+?>
 <!doctype html>
 <html lang="ja">
 <head>
@@ -26,10 +27,8 @@
   
         <p>ユーザID、パスワードをご入力の上、「ログイン」ボタンをクリックしてください。</p>
   
-      </div>
-    <fieldset>
-      
-    <form  action="comfirm.php" method="POST">
+</div>
+    <form  action="confirm.php" method="POST">
 
       <div class="login_form_btm">
 
@@ -37,14 +36,13 @@
       <p>パスワードを入力<input type="password" name="password" required></p>
 
       </div>
-        <div class="bo">
-          <button name="signup" type="submit"> ログイン</button>
-          <a href="signup.html">
-            <button type="button">新規作成</button>
-          </a>
-        </div>  
 
-    </fieldset>
+        <div class="bo">
+            <button  type="submit"> ログイン</button>
+            <a href="signup.html">
+            <button type="button">新規作成</button>
+            </a>
+</div>
 
     </form>
   </form>
