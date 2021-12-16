@@ -9,9 +9,9 @@ require_once __DIR__ .'/dbconect.php';
     <ul>
       <meta charset="UTF-8">
       <li><a class="active" href="">Home</a></li>
-      <li><a href="post.html" >投稿</a></li>
-      <li><a href="search.html">検索</a></li>
-      <li><a href="login.html">ログイン</a></li>
+      <li><a href="post.php" >投稿</a></li>
+      <li><a href="search.php">検索</a></li>
+      <li><a href="login.php">ログイン</a></li>
     </ul>
   </header>
   
