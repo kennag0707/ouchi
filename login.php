@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html lang="ja">
 <head>
@@ -25,29 +27,26 @@
         <p>ユーザID、パスワードをご入力の上、「ログイン」ボタンをクリックしてください。</p>
   
       </div>
-  
-      <div class="login_form_btm">
-  
-        <input type="id" name="user_id" placeholder="ユーザーIDを入力してください"><br>
-        <input type="password" name="password"placeholder="パスワードを入力してください">
-  
-      </div>
+    <fieldset>
+      
+    <form  action="comfirm.php" method="POST">
 
-      <form action="">
-        <?php
-        $dsn="mysql:dbname=ouchi;host=localhost;charset=UTF8";
-        $user = 'ouchi';
-        $password = 'pass';
-        $pdo = new PDO($dsn, $user, $password);
-        ?>
+      <div class="login_form_btm">
+
+      <p>会員IDを入力<input type="text" name="user" required></p>
+      <p>パスワードを入力<input type="password" name="password" required></p>
+
+      </div>
         <div class="bo">
-          <button type="submit" >ログイン</button>
+          <button name="signup" type="submit"> ログイン</button>
           <a href="signup.html">
             <button type="button">新規作成</button>
           </a>
         </div>  
-        
-      </form>
+
+    </fieldset>
+
+    </form>
   </form>
 </head>
 </body>
